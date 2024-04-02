@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* NProgress Bar Color */
+  --primary: 244 65% 50%;
+}
+
+@layer base {
+  body {
+    @apply bg-neutral-900 text-neutral-50 font-sans antialiased;
+  }
+}
